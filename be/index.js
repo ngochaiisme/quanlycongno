@@ -6,7 +6,7 @@ const PORT = 5000;
 app.use(cors());
 
 app.get("/api/dai-ca", (req, res) => {
-  res.json({ name: "Hải" });
+  res.json({ name: "Hải pro" });
 });
 
 app.listen(PORT, () => {
